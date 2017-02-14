@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bdayText_size">56sp</dimen>
+    <dimen name="linerLayout_HBtext_margin">160dp</dimen>
+    <dimen name="bdayText_padding">5dp</dimen>
+    <dimen name="toText_size">40sp</dimen>
+    <dimen name="toText_padding">10dp</dimen>
+    <dimen name="msg1Text_size">32sp</dimen>
+    <dimen name="msg1Text_padding">10dp</dimen>
+</resources>

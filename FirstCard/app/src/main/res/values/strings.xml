@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirstCard</string>
+    <string name="HBText">Happy Birthday</string>
+    <string name="toText">Dear Simer ,</string>
+    <string name="msg1text">May Everyday Bring Something </string>
+    <string name="msg2Text">New And Exciting For You</string>
+    <string name="fromText">From Henna</string>
+
+</resources>

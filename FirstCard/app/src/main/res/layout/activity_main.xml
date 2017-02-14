@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="artist.web.firstcard.MainActivity">
+
+            <ImageView
+                android:id="@+id/balloonImage"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/balloon6"
+                android:scaleType="centerCrop"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/Rel_ins_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/HBText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/linerLayout_HBtext_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/BasicLayoutStyle.bdayText"
+                    android:text="@string/HBText"/>
+
+               </LinearLayout>
+
+            <TextView
+                android:id="@+id/toText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toText"
+                style="@style/BasicLayoutStyle.toText"
+                android:layout_below="@id/HBText"/>
+
+            <ImageView
+                android:id="@+id/bdayCake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toText"
+                android:src="@drawable/bdaycake2"
+                android:scaleType="fitCenter"
+                android:layout_centerInParent="true"/>
+
+
+            <TextView
+                android:id="@+id/msg1Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/msg1text"
+                android:layout_below="@id/bdayCake"
+                style="@style/BasicLayoutStyle.msg1Text"/>
+
+            <TextView
+                android:id="@+id/msg2Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/msg2Text"
+                style="@style/BasicLayoutStyle.msg1Text"
+                android:layout_below="@id/msg1Text"/>
+
+              <TextView
+                android:id="@+id/fromText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fromText"
+                android:layout_below="@id/msg2Text"
+                style="@style/BasicLayoutStyle.toText.fromtext"/>
+
+           </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+

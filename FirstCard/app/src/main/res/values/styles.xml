@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="BasicLayoutStyle">
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textStyle">italic|bold</item>
+
+    </style>
+
+    <style name="BasicLayoutStyle.bdayText">
+        <item name="android:textSize">@dimen/bdayText_size</item>
+        <item name="android:padding">@dimen/bdayText_padding</item>
+        <item name="android:textColor">@color/HBText</item>
+    </style>
+
+    <style name="BasicLayoutStyle.toText">
+        <item name="android:textSize">@dimen/toText_size</item>
+        <item name="android:textColor">@color/toText</item>
+        <item name="android:padding">@dimen/toText_padding</item>
+
+    </style>
+
+    <style name="BasicLayoutStyle.msg1Text">
+        <item name="android:textSize">@dimen/msg1Text_size</item>
+        <item name="android:textColor">@color/msgText</item>
+        <item name="android:padding">@dimen/msg1Text_padding</item>
+        <item name="android:layout_centerInParent">true</item>
+
+    </style>
+
+    <style name="BasicLayoutStyle.toText.fromtext">
+        <item name="android:textSize">@dimen/toText_size</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+
+</resources>
