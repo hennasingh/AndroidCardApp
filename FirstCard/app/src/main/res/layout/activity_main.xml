@@ -12,6 +12,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:src="@drawable/balloon6"
+                android:contentDescription="@string/imgBalloonText"
                 android:scaleType="centerCrop"/>
 
             <ScrollView
@@ -21,7 +22,7 @@
             <RelativeLayout
                 android:id="@+id/Rel_ins_scroll"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
             <LinearLayout
                 android:id="@+id/HBText"
@@ -54,6 +55,7 @@
                 android:layout_below="@id/toText"
                 android:src="@drawable/bdaycake2"
                 android:scaleType="fitCenter"
+                android:contentDescription="@string/cakeText"
                 android:layout_centerInParent="true"/>
 
 
