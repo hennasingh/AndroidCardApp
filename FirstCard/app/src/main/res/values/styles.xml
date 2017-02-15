@@ -16,6 +16,8 @@
         <item name="android:textSize">@dimen/bdayText_size</item>
         <item name="android:padding">@dimen/bdayText_padding</item>
         <item name="android:textColor">@color/HBText</item>
+        <item name="android:layout_marginTop">@dimen/linerLayout_HBtext_margin</item>
+
     </style>
 
     <style name="BasicLayoutStyle.toText">

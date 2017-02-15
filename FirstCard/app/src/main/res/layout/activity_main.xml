@@ -1,44 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/balloon6"
+     android:fillViewport="true">
+
+<RelativeLayout
     android:id="@+id/activity_main"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     tools:context="artist.web.firstcard.MainActivity">
 
-            <ImageView
-                android:id="@+id/balloonImage"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:src="@drawable/balloon6"
-                android:contentDescription="@string/imgBalloonText"
-                android:scaleType="centerCrop"/>
-
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-            <RelativeLayout
-                android:id="@+id/Rel_ins_scroll"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:id="@+id/HBText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_horizontal"
-                android:layout_marginTop="@dimen/linerLayout_HBtext_margin">
-
-                <TextView
-                    android:layout_width="wrap_content"
+            <TextView
+                    android:id="@+id/HBText"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     style="@style/BasicLayoutStyle.bdayText"
+                    android:gravity="center|center_horizontal"
                     android:text="@string/HBText"/>
 
-               </LinearLayout>
 
             <TextView
                 android:id="@+id/toText"
@@ -85,7 +67,7 @@
 
            </RelativeLayout>
     </ScrollView>
-</RelativeLayout>
+
 
 
 
